@@ -1,6 +1,9 @@
 .container {
-	height: 90vh;
-	margin: 5vh;
+	position: absolute;
+	top: 5vh;
+	left: 5vh;
+	right: 5vh;
+	bottom: 5vh;
 	background-color: rgb(182, 182, 182);
 	border-radius: 8px;
 	padding: 20px;

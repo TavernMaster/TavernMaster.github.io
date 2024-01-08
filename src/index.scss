@@ -19,6 +19,11 @@ button {
 	color: white;
 
 	cursor: pointer;
+
+	@media screen and (max-width: 1500px) {
+		padding: 0 10px;
+		font-size: 18px;
+	}
 }
 
 button:hover {
@@ -31,6 +36,7 @@ button:active {
 
 input {
 	height: 35px;
+	width: 150px;
 	font-size: 22px;
 	padding: 0 15px;
 	border-radius: 8px;
@@ -38,6 +44,11 @@ input {
 	background-color: rgb(94, 94, 94);
 	color: white;
 	outline: none;
+
+	@media screen and (max-width: 1500px) {
+		font-size: 18px;
+		width: 120px;
+	}
 }
 
 input::placeholder {
