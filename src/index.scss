@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: rgb(60, 60, 60);
+}
+
+button {
+	height: 35px;
+	font-size: 22px;
+	padding: 0 15px;
+	border-radius: 8px;
+	border: none;
+	background-color: rgb(94, 94, 94);
+	color: white;
+
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgb(122, 122, 122);
+}
+
+button:active {
+	scale: 0.95;
+}
+
+input {
+	height: 35px;
+	font-size: 22px;
+	padding: 0 15px;
+	border-radius: 8px;
+	border: none;
+	background-color: rgb(94, 94, 94);
+	color: white;
+	outline: none;
+}
+
+input::placeholder {
+	color: rgb(192, 192, 192);
+}
